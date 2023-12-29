@@ -12,8 +12,7 @@ The project is primarily written in PHP, with JavaScript for front-end interacti
 
 In summary, this project provides a solid starting point for building multi-tenant applications with advanced user management capabilities.
 
-Sure, here is the updated step-by-step guide on how to install and run the seeders for this project:
-
+## Setup Guide
 1. **Use the template**: As this is a template on GitHub, you can create a new repository from this template. Click on the "Use this template" button on the repository page to create a new repository.
 
 2. **Clone the repository**: After creating your new repository, clone it to your local machine using the `git clone` command followed by the URL of your new repository.
