@@ -47,6 +47,9 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 App\Enums: This directory contains all the Enum classes for your application. Enums, short for enumerations, are a type of class in PHP that allows you to define a type with a limited set of values. In your case, the GuardNames enum is defined here. You can define any other enums in this directory as per your application's requirements.  
+
 App\Permissions: This directory contains all the Permission classes for each model in your application. Each class represents a model and defines the permissions related to that model. These permissions are used in conjunction with the Spatie's Permission management package to control access to various parts of your application.  
+
 App\Policies: This directory contains all the Policy classes for your application. Policies are classes that organize authorization logic around a particular model or resource. In Laravel, policies should be in the App\Policies directory. Policies are used in conjunction with Laravel's built-in Gate and Policy functionality to determine if a user can perform a given action on a resource.  
+
 Remember, the structure and organization of your directories and files can greatly impact the maintainability and scalability of your application. It's always a good practice to organize your files in a way that makes sense for your particular application and its requirements.
